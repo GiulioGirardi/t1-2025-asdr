@@ -4,6 +4,7 @@ public class AsdrSample {
 
   private static final int BASE_TOKEN_NUM = 301;
   
+  
   public static final int IDENT  = 301;
   public static final int NUM 	 = 302;
   public static final int WHILE  = 303;
