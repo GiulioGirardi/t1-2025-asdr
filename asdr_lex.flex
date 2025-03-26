@@ -38,7 +38,9 @@ WHITE_SPACE_CHAR=[\n\r\ \t\b\012]
 ")" |
 "+" |
 "-" |
-"="    	{ return yytext().charAt(0); } 
+"=" |
+"*" |
+"/"    	{ return yytext().charAt(0); } 
 
 
 {WHITE_SPACE_CHAR}+ { }
